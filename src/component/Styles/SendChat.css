@@ -1,0 +1,15 @@
+.sendChatContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sendChatInput{
+    flex: auto;    
+}
+
+.sendChatBtn{
+    min-width: auto !important;
+}
+
+

@@ -1,0 +1,14 @@
+/* style={{ width: "100" ,justifyContent:'space-between',alignItems:'center',borderRadius:'0'}}> */
+.userCardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    cursor: pointer;
+   
+}
+/* 
+.userName, h3{
+    display: inline-block;
+} */

@@ -1,0 +1,23 @@
+.messagesContainer{
+    padding-top: 2%;
+}
+
+.messageDiv{
+    padding: 1% 2%;
+    word-break: break-all;
+}
+.subDiv{
+    display: inline;
+    padding: 2%;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(0, 183, 250) 25%, rgb(1, 207, 234) 100%);
+}
+
+
+.ant-skeleton-avatar{
+    margin-left: 20px !important;
+    margin-top: 10px !important;
+}
+.ant-skeleton-title{
+    margin-left: 20px !important;
+}

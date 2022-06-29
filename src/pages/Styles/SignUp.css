@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+.signupContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    /* background-color: white; */
+}
+
+.imgContainer{
+    flex: 3;
+}
+
+.signupMain{
+    flex: auto;
+
+   
+}
+.signupMain > h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: 'Parisienne', cursive;
+
+}
+.mform{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.imgContainer>img{
+    width: 1000px;
+}
+

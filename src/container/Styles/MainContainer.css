@@ -1,0 +1,38 @@
+
+.nextui-c-BDLTQ{
+    flex-direction: row !important;
+    overflow: hidden !important;
+
+}
+
+.mainCont{
+  text-align: center;
+  margin-top: 30px;
+  height: auto;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: whitesmoke; */
+}
+
+
+.chatListContainer {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* background-color: aquamarine; */
+}
+
+.chatContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.chatListHeader{
+  display: flex;
+  align-items: center;
+  padding: 1%;
+}
