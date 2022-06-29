@@ -11,12 +11,14 @@ import { getAuth } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { firebaseConfig } from "./config/firebase.config";
 
+
 initializeApp(firebaseConfig);
 const auth = getAuth(getApp());
 
 function App() {
   const [user] = useAuthState(auth);
   console.log(user?.displayName);
+  
   return (
     <div className="App">
       <Routes>
